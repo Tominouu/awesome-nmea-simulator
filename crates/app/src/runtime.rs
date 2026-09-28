@@ -1150,8 +1150,15 @@ impl Engine {
     fn run(&mut self, rx: Receiver<Request>) {
         let mut next = Instant::now();
         let mut replay_was_playing = false;
+        let mut last_refresh = Instant::now();
         while !self.stop {
-            let step = self.cfg.simulation.step_ms.max(1);
+            // Le pas ne dépasse jamais l'intervalle de sortie (intervalles < 20 ms).
+            let step = self
+                .cfg
+                .simulation
+                .step_ms
+                .min(self.cfg.output.interval_ms)
+                .max(1);
             let now = Instant::now();
             if next > now {
                 match rx.recv_timeout(next - now) {
@@ -1194,7 +1201,12 @@ impl Engine {
                 }
             }
             self.drain_inbox();
-            self.refresh_shared();
+            // État publié rafraîchi à 50 Hz au plus : aux intervalles de sortie
+            // très courts (1 ms), le rafraîchir à chaque pas limite le débit.
+            if last_refresh.elapsed() >= Duration::from_millis(20) {
+                last_refresh = Instant::now();
+                self.refresh_shared();
+            }
             if self.sim.state().autopilot.mode == AutopilotMode::Route
                 && self.sim.state().route.destination().is_none()
             {

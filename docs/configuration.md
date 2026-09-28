@@ -18,7 +18,7 @@ Règles :
   réécrite, avec un avertissement ; les clés legacy non migrées sont gardées
   sous `legacy` ;
 - **erreur explicite** : une valeur invalide est refusée avec le champ fautif
-  (`output.intervalMs : doit être dans 100..=10000`) ; un `server.type` legacy
+  (`output.intervalMs : doit être dans 1..=10000`) ; un `server.type` legacy
   en chaîne (`"udp"`) est une erreur, là où 1.6.1 ne démarrait rien en silence.
 
 ## Structure

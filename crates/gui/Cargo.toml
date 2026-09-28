@@ -31,7 +31,7 @@ dirs.workspace = true
 workspace = true
 
 [package.metadata.deb]
-name = "nmeasim-rs"
+name = "awesome-nmea"
 maintainer = "Tom Leclercq <tomleclercq2006@gmail.com>"
 copyright = "2026, nmeasim-rs contributors"
 extended-description = """Simulateur de navire émettant NMEA 0183, AIS, Signal K et ViewSync \

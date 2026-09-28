@@ -1142,7 +1142,7 @@ pub fn settings(app: &mut NmeaSimApp, ui: &mut Ui) {
                 });
                 ui.end_row();
                 ui.label("intervalle (ms)");
-                ui.add(egui::DragValue::new(&mut d.output.interval_ms).range(100..=10000).speed(10));
+                ui.add(egui::DragValue::new(&mut d.output.interval_ms).range(1..=10000).speed(1));
                 ui.end_row();
                 ui.label("pas (ms)");
                 ui.add(egui::DragValue::new(&mut d.simulation.step_ms).range(1..=1000));

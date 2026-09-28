@@ -347,10 +347,10 @@ impl AppConfig {
         self.simulation
             .validate()
             .map_err(|e| ConfigError::new(format!("simulation.{}", e.field), e.reason))?;
-        if !(100..=10_000).contains(&self.output.interval_ms) {
+        if !(1..=10_000).contains(&self.output.interval_ms) {
             return Err(ConfigError::new(
                 "output.intervalMs",
-                "doit être dans 100..=10000",
+                "doit être dans 1..=10000",
             ));
         }
         if let Some(list) = &self.output.nmea.sentences {

@@ -2222,7 +2222,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "dirs",
@@ -2243,7 +2243,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-app"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "dirs",
@@ -2262,14 +2262,14 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-core"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "serde",
 ]
 
 [[package]]
 name = "nmeasim-encode"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "nmeasim-core",
@@ -2280,7 +2280,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-input"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "nmeasim-sim",
  "serde",
@@ -2289,7 +2289,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-sim"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "nmeasim-core",
  "serde",
@@ -2298,7 +2298,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-source"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "nmeasim-core",
@@ -2309,7 +2309,7 @@ dependencies = [
 
 [[package]]
 name = "nmeasim-transport"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "if-addrs",
  "nix 0.29.0",

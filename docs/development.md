@@ -84,6 +84,7 @@ cargo run -p nmeasim-app --example gamepad_probe -- 14
 
 | Cible | Commande | Sortie |
 |---|---|---|
+| Linux (script) | `packaging/linux/build.sh [--no-deb] [--install-deps]` | binaire release + `.deb` |
 | Linux .deb | `cargo deb -p nmeasim` | `target/debian/nmeasim-rs_<v>_amd64.deb` |
 | Linux binaire | `cargo build --release` | `target/release/nmeasim` |
 | Windows | `packaging/windows/make-zip.ps1` | archive portable `.zip` |

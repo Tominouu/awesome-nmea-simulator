@@ -387,7 +387,7 @@ fn legacy_config_migration_and_persistence() {
     assert_eq!(back.config, l.config);
     // Invalide : champ nommé.
     let mut c = AppConfig::default();
-    c.output.interval_ms = 5;
+    c.output.interval_ms = 0;
     assert_eq!(c.validate().unwrap_err().field, "output.intervalMs");
     c = AppConfig::default();
     c.transports[1].id = c.transports[0].id.clone();
