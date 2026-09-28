@@ -1,4 +1,4 @@
-# nmeasim-rs — NMEA Simulator
+# AWESOME NMEA Simulator
 
 Simulateur de navire qui émet **NMEA 0183, AIS, Signal K et ViewSync** sur
 **TCP, UDP (diffusion, client, multicast), WebSocket et port série**, pilotable
@@ -16,7 +16,7 @@ arrière, vent, courant) et une interface graphique native.
 ### Linux (Debian, Ubuntu)
 
 ```bash
-sudo apt install ./nmeasim-rs_<version>_amd64.deb
+sudo apt install ./nmeasim-rs_0.1.0-1_amd64.deb
 nmeasim            # ou « NMEA Simulator » dans le menu des applications
 ```
 
@@ -151,4 +151,4 @@ Double-clic : suivre le navire. Fond OpenStreetMap facultatif (réseau requis).
 
 ## Licence
 
-MIT ou Apache-2.0, au choix.
+Apache-2.0
