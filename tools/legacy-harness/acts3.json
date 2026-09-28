@@ -1,0 +1,11 @@
+[
+ {"method":"Input.dispatchKeyEvent","params":{"type":"rawKeyDown","key":"ArrowRight","code":"ArrowRight","windowsVirtualKeyCode":39,"nativeVirtualKeyCode":39}},
+ {"method":"Input.dispatchKeyEvent","params":{"type":"keyUp","key":"ArrowRight","code":"ArrowRight","windowsVirtualKeyCode":39,"nativeVirtualKeyCode":39}},
+ {"wait":200},
+ {"method":"Input.dispatchKeyEvent","params":{"type":"rawKeyDown","key":"ArrowRight","code":"ArrowRight","windowsVirtualKeyCode":39,"nativeVirtualKeyCode":39}},
+ {"method":"Input.dispatchKeyEvent","params":{"type":"keyUp","key":"ArrowRight","code":"ArrowRight","windowsVirtualKeyCode":39,"nativeVirtualKeyCode":39}},
+ {"wait":3000},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Rudder');return t.slice(i,i+40).replace(/\\n/g,'|')})()"},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Heading');return t.slice(i,i+40).replace(/\\n/g,'|')})()"},
+ {"eval":"(()=>{const b=document.querySelector('#mat-mdc-slide-toggle-1-button');return 'steer='+b.getAttribute('aria-checked')})()"}
+]

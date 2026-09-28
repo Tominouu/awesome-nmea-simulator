@@ -1,0 +1,11 @@
+const WebSocket=require('/home/tom/node_modules/ws');
+const fs=require('fs');
+const port=parseInt(process.argv[2]||'10111',10);
+const out=process.argv[3]||'cap-ws.log';
+const dur=parseInt(process.argv[4]||'10000',10);
+const t0=Date.now();
+const ws=new WebSocket('ws://127.0.0.1:'+port);
+ws.on('open',()=>console.error('ws open'));
+ws.on('message',(b)=>fs.appendFileSync(out,'['+(Date.now()-t0)+'ms] '+JSON.stringify(b.toString())+'\n'));
+ws.on('error',e=>{console.error('ERR',e.message);process.exit(1)});
+setTimeout(()=>{try{ws.close()}catch(e){};process.exit(0)},dur);

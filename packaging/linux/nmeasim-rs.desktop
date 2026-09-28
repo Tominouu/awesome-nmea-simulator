@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=NMEA Simulator
+GenericName=Simulateur NMEA 0183 / Signal K
+Comment=Simulateur de navire pilotable à la manette, compatible NMEASimulator 1.6.1
+Exec=nmeasim
+Icon=nmeasim-rs
+Terminal=false
+Categories=Utility;Development;Science;
+Keywords=NMEA;AIS;SignalK;marine;boat;simulator;gamepad;
+StartupWMClass=nmeasim-rs

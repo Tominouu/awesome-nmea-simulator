@@ -1,0 +1,3 @@
+[{"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":1176,"y":24},"wait":300},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":1176,"y":24,"button":"left","clickCount":1},"wait":300},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":1176,"y":24,"button":"left","clickCount":1},"wait":2500}]

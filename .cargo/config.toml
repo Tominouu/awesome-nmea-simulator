@@ -1,0 +1,3 @@
+[alias]
+# Couverture J0 : 100 % des lignes de nmeasim-core (units, random).
+cov = "llvm-cov -p nmeasim-core --fail-under-lines 100 --show-missing-lines"

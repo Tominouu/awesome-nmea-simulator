@@ -1,0 +1,17 @@
+[package]
+name = "nmeasim-input"
+description = "Manette et clavier : profils et traduction pure en commandes (J5)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+nmeasim-sim.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
+
+[lints]
+workspace = true

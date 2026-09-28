@@ -1,0 +1,33 @@
+=== TZ=UTC
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100348.119,A
+    ZDA : $GPZDA,100348.119,28,09,2026,00,00*54
+=== TZ=Asia/Tokyo
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100439.365,A
+    ZDA : $GPZDA,100439.365,28,09,2026,09,00*55
+=== TZ=America/St_Johns
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100530.628,A
+    ZDA : $GPZDA,100530.628,28,09,2026,-02,30*74
+=== TZ=Asia/Kolkata
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100621.918,A
+    ZDA : $GPZDA,100621.918,28,09,2026,05,30*51
+=== TZ=Pacific/Chatham
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100713.169,A
+    ZDA : $GPZDA,100713.169,28,09,2026,13,45*5A
+=== TZ=Europe/Paris
+        demarrage confirme (essai 2)
+    RMC : $GPRMC,100804.427,A
+    ZDA : $GPZDA,100804.427,28,09,2026,02,00*5D
+
+=== recapitulatif ===
+FUSEAU               RMC (UTC)                ZDA complet
+UTC                  100348.119,A             100348.119,28,09,2026,00,00*54
+Asia/Tokyo           100439.365,A             100439.365,28,09,2026,09,00*55
+America/St_Johns     100530.628,A             100530.628,28,09,2026,-02,30*74
+Asia/Kolkata         100621.918,A             100621.918,28,09,2026,05,30*51
+Pacific/Chatham      100713.169,A             100713.169,28,09,2026,13,45*5A
+Europe/Paris         100804.427,A             100804.427,28,09,2026,02,00*5D

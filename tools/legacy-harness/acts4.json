@@ -1,0 +1,11 @@
+[
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":150,"y":600}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":240,"y":530}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":271,"y":520}},
+ {"wait":400},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":271,"y":520,"button":"right","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":271,"y":520,"button":"right","clickCount":1}},
+ {"wait":4000},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Common Name');return t.slice(i-260,i+120).replace(/\\n/g,'|')})()"},
+ {"wait":6000}
+]

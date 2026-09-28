@@ -1,0 +1,185 @@
+{
+ "version": "",
+ "interval": 1000,
+ "outputFormat": "NMEA",
+ "autoStart": true,
+ "sendNmeaPrefix": false,
+ "viewsync": {
+  "host": "127.0.0.1",
+  "port": 7001,
+  "altitude": 30,
+  "tilt": 85
+ },
+ "vesselId": "urn:mrn:signalk:uuid:b7590868-1d62-47d9-989c-32321b349fb9",
+ "context": "vessels",
+ "server": {
+  "type": 1,
+  "ip": {
+   "address": "127.0.0.1",
+   "port": 10110,
+   "secure": false,
+   "interfaceId": "lo",
+   "multicastAddress": "230.185.192.108"
+  },
+  "serial": {
+   "port": null,
+   "baudRate": 9600,
+   "dataBits": 8,
+   "stopBits": 1,
+   "parity": "none"
+  },
+  "manualSerialPort": false,
+  "manualBaudRate": false
+ },
+ "seed": {
+  "gps": {
+   "speed": {
+    "max": 10,
+    "min": 10,
+    "minus": 0,
+    "plus": 0,
+    "value": 10
+   },
+   "heading": {
+    "max": 0,
+    "min": 0,
+    "minus": 0,
+    "plus": 0,
+    "value": 0
+   },
+   "rudderAngle": {
+    "value": 0,
+    "min": -40,
+    "max": 40,
+    "plus": 0,
+    "minus": 0
+   },
+   "hdop": {
+    "max": 1.5,
+    "min": 1.5,
+    "minus": 0,
+    "plus": 0,
+    "value": 1.5
+   },
+   "pdop": {
+    "max": 1.5,
+    "min": 1.5,
+    "minus": 0,
+    "plus": 0,
+    "value": 1.5
+   },
+   "vdop": {
+    "max": 1.5,
+    "min": 1.5,
+    "minus": 0,
+    "plus": 0,
+    "value": 1.5
+   },
+   "position": {
+    "max": null,
+    "min": null,
+    "minus": null,
+    "plus": null,
+    "value": {
+     "latitude": 0.0,
+     "longitude": 0.0
+    }
+   },
+   "altitude": {
+    "max": 2,
+    "min": 2,
+    "minus": 0,
+    "plus": 0,
+    "value": 2
+   }
+  },
+  "water": {
+   "depth": {
+    "max": 8,
+    "min": 8,
+    "minus": 0,
+    "plus": 0,
+    "value": 8
+   },
+   "temperature": {
+    "max": 7.5,
+    "min": 7.5,
+    "minus": 0,
+    "plus": 0,
+    "value": 7.5
+   }
+  },
+  "wind": {
+   "direction": {
+    "max": 0,
+    "min": 0,
+    "minus": 0,
+    "plus": 0,
+    "value": 0
+   },
+   "speed": {
+    "max": 10,
+    "min": 10,
+    "minus": 0,
+    "plus": 0,
+    "value": 10
+   }
+  },
+  "p0": {
+   "rpm": {
+    "max": 600,
+    "min": 600,
+    "minus": 0,
+    "plus": 0,
+    "value": 600
+   },
+   "temperature": {
+    "max": 85,
+    "min": 85,
+    "minus": 0,
+    "plus": 0,
+    "value": 85
+   }
+  },
+  "p1": {
+   "rpm": {
+    "max": 600,
+    "min": 600,
+    "minus": 0,
+    "plus": 0,
+    "value": 600
+   },
+   "temperature": {
+    "max": 85,
+    "min": 85,
+    "minus": 0,
+    "plus": 0,
+    "value": 85
+   }
+  },
+  "wpt": {
+   "position": {
+    "value": {
+     "latitude": 0,
+     "longitude": 0
+    },
+    "min": null,
+    "max": null,
+    "plus": null,
+    "minus": null
+   }
+  }
+ },
+ "talkers": [],
+ "panel": {
+  "order": {
+   "gps": 1,
+   "vessel": 2,
+   "wind": 3,
+   "water": 4,
+   "propulsion": 5,
+   "destination": 6,
+   "terminal": 7
+  }
+ }
+}

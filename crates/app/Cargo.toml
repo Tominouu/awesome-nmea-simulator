@@ -1,0 +1,31 @@
+[package]
+name = "nmeasim-app"
+description = "Assemblage headless : configuration, moteur d'exécution, API de contrôle, scénarios (J5, J7)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[features]
+default = ["gamepad"]
+gamepad = ["dep:gilrs"]
+
+[dependencies]
+nmeasim-core.workspace = true
+nmeasim-sim.workspace = true
+nmeasim-encode.workspace = true
+nmeasim-transport.workspace = true
+nmeasim-source.workspace = true
+nmeasim-input.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+tiny_http.workspace = true
+dirs.workspace = true
+gilrs = { workspace = true, optional = true }
+
+[dev-dependencies]
+tungstenite.workspace = true
+
+[lints]
+workspace = true

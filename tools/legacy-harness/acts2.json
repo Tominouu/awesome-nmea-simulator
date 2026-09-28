@@ -1,0 +1,16 @@
+[
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":657,"y":128}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":657,"y":128,"button":"left","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":657,"y":128,"button":"left","clickCount":1}},
+ {"wait":2000},
+ {"eval":"(()=>{const t=document.querySelectorAll('mat-slide-toggle')[0];return 'steeringChecked='+t.className.includes('mat-slide-toggle-checked')})()"},
+ {"eval":"(()=>{const c=document.querySelector('.page-container');for(let i=0;i<15;i++)c.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true,cancelable:true}));return 'arrows sent'})()"},
+ {"wait":3000},
+ {"eval":"(()=>{const c=document.querySelector('.page-container');for(let i=0;i<25;i++)c.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowLeft',bubbles:true,cancelable:true}));return 'arrows2 sent'})()"},
+ {"wait":2000},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":271,"y":554}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":271,"y":554,"button":"left","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":271,"y":554,"button":"left","clickCount":1}},
+ {"wait":4000},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Helm');return t.slice(i,i+200).replace(/\\n/g,'|')})()"}
+]

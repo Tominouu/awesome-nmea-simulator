@@ -1,0 +1,11 @@
+[1790590345007.540] console.log *** DEBUG:  APP_CONFIG
+[1790590345010.093] console.log *** DEBUG:  Object
+[1790590345196.212] console.log stdout:
+v22.23.2
+
+[1790590345196.358] console.log *** DEBUG:  app-info Object
+[1790590345196.556] console.log *** DEBUG:  Object
+[1790590345196.881] console.log *** DEBUG:  **settings$**
+[1790590355222.222] console.log === consolecap armed ===
+[1790590357251.741] console.warning Selected file does not contain any Track data!  No Tracks found!:
+[1790590361332.614] console.log *** DEBUG:  

@@ -1,0 +1,10 @@
+[
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":271,"y":520}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":271,"y":520,"button":"right","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":271,"y":520,"button":"right","clickCount":1}},
+ {"wait":5000},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseMoved","x":120,"y":660}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":120,"y":660,"button":"right","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":120,"y":660,"button":"right","clickCount":1}},
+ {"wait":6000}
+]

@@ -1,0 +1,17 @@
+[package]
+name = "nmeasim-source"
+description = "Sources de données : GPX, KML, lecteur de trace, journal .nmeasim, rejeu (J6)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+nmeasim-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+roxmltree.workspace = true
+chrono.workspace = true
+
+[lints]
+workspace = true

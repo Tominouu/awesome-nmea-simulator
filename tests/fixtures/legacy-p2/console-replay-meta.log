@@ -1,0 +1,13 @@
+[1790591031701.239] console.log *** DEBUG:  APP_CONFIG
+[1790591031703.700] console.log *** DEBUG:  Object
+[1790591031880.381] console.log stdout:
+v22.23.2
+
+[1790591031880.520] console.log *** DEBUG:  app-info Object
+[1790591031880.712] console.log *** DEBUG:  Object
+[1790591031881.032] console.log *** DEBUG:  **settings$**
+[1790591041898.298] console.log === consolecap armed ===
+[1790591043951.726] console.log *** DEBUG:  LogReplay.server.started
+[1790591043956.304] console.info TCP Server: Server started on 127.0.0.1 : 10110
+[1790591074251.851] console.log *** DEBUG:  LogReplay.server.stopped
+[1790591074254.163] console.info TCP Server (close): stopped on 127.0.0.1 : 10110

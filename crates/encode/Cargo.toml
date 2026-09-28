@@ -1,0 +1,17 @@
+[package]
+name = "nmeasim-encode"
+description = "Encodeurs NMEA 0183, AIS, Signal K et ViewSync, indépendants des transports (J2, J3)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+nmeasim-core.workspace = true
+nmeasim-sim.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+
+[lints]
+workspace = true

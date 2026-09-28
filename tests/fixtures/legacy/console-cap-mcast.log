@@ -1,0 +1,38 @@
+[1790587350172.785] console.log *** DEBUG:  APP_CONFIG
+[1790587350175.785] console.log *** DEBUG:  Object
+[1790587350422.171] console.log stdout:
+v22.23.2
+
+[1790587350422.349] console.log *** DEBUG:  app-info Object
+[1790587350422.548] console.log *** DEBUG:  Object
+[1790587350422.891] console.log *** DEBUG:  **settings$**
+[1790587360335.693] console.log === consolecap armed ===
+[1790587366084.437] console.log *** DEBUG:  started
+[1790587366084.679] console.log *** DEBUG:  sim-status:
+[1790587366084.729] console.log *** DEBUG:  Object
+[1790587366089.674] console.log set centre
+[1790587366111.594] console.log UDP (multicast) (239.255.42.99)
+[1790587367083.944] console.log set centre
+[1790587368083.493] console.log set centre
+[1790587369083.791] console.log set centre
+[1790587370082.377] console.log set centre
+[1790587371082.024] console.log set centre
+[1790587372082.180] console.log set centre
+[1790587373082.221] console.log set centre
+[1790587374084.082] console.log set centre
+[1790587375082.110] console.log set centre
+[1790587376082.302] console.log set centre
+[1790587377082.623] console.log set centre
+[1790587378082.620] console.log set centre
+[1790587379082.569] console.log set centre
+[1790587380082.185] console.log set centre
+[1790587381082.042] console.log set centre
+[1790587382083.041] console.log set centre
+[1790587383082.140] console.log set centre
+[1790587384082.954] console.log set centre
+[1790587385082.608] console.log set centre
+[1790587386082.051] console.log set centre
+[1790587387082.880] console.log set centre
+[1790587388081.761] console.log set centre
+[1790587389082.518] console.log set centre
+[1790587390081.616] console.log set centre

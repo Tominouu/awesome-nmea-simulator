@@ -1,0 +1,11 @@
+[
+ {"eval":"(()=>{const t=document.querySelectorAll('mat-slide-toggle')[0];const b=t.querySelector('button');const r=b.getBoundingClientRect();return [Math.round(r.x+r.width/2),Math.round(r.y+r.height/2)].join(',')})()","wait":300},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mousePressed","x":300,"y":147,"button":"left","clickCount":1}},
+ {"method":"Input.dispatchMouseEvent","params":{"type":"mouseReleased","x":300,"y":147,"button":"left","clickCount":1}},
+ {"wait":1500},
+ {"eval":"(()=>{const t=document.querySelectorAll('mat-slide-toggle')[0];return 'steeringChecked='+t.className.includes('mat-slide-toggle-checked')})()"},
+ {"eval":"(()=>{const c=document.querySelector('.page-container');for(let i=0;i<15;i++)c.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true,cancelable:true}));return 'arrows sent'})()"},
+ {"wait":6000},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Rudder');return t.slice(i,i+60).replace(/\\n/g,'|')})()"},
+ {"eval":"(()=>{const t=document.body.innerText;const i=t.indexOf('Heading');return t.slice(i,i+80).replace(/\\n/g,'|')})()"}
+]

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "Banc legacy 1.6.1",
+  "description": "Profil legacy : 24 phrases de NMEASimulator 1.6.1, position et seeds par défaut, TCP 10110 et UDP diffusion 3100.",
+  "simulation": { "seed": 1, "compatibility": { "profile": "legacy" } },
+  "intervalMs": 1000,
+  "transports": [
+    { "id": "tcp", "type": "tcp-server", "bind": "0.0.0.0", "port": 10110, "format": "nmea" },
+    { "id": "udp", "type": "udp-broadcast", "interface": "", "port": 3100, "format": "nmea" }
+  ],
+  "autoStart": true
+}

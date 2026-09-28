@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>linestring-test</name>
+  <Placemark>
+    <name>LINESTRING-A</name>
+    <LineString>
+      <coordinates>
+        138.500000,-35.000000,0 138.501000,-35.000000,0 138.502000,-35.000000,0
+        138.503000,-35.000000,0 138.504000,-35.000000,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "name": "Manœuvre à la manette",
+  "description": "Navire de 12 m réactif, moteurs arrêtés, vent faible : démarrer les moteurs (A) et manœuvrer au stick.",
+  "simulation": {
+    "seed": 7,
+    "vessel": { "name": "PILOT", "lengthM": 12, "maxSpeedAheadKn": 9, "maxSpeedAsternKn": 5, "accelTimeS": 6, "decelTimeS": 12, "rudderRateDegS": 15 },
+    "initial": { "position": { "lat": -34.997, "lon": 138.49 }, "headingDeg": 0, "speedKn": 0 },
+    "environment": { "windDirectionDeg": 270, "windSpeedKn": 6, "depthM": 6 }
+  },
+  "intervalMs": 500,
+  "autoStart": true
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <name>folder-test</name>
+  <Folder>
+    <name>F1</name>
+    <Placemark>
+      <name>FOLDER-TRACK-1</name>
+      <gx:Track>
+        <when>2026-09-28T10:00:00Z</when>
+        <when>2026-09-28T10:00:10Z</when>
+        <when>2026-09-28T10:00:20Z</when>
+        <gx:coord>138.500000 -35.000000 0</gx:coord>
+        <gx:coord>138.501000 -35.001000 0</gx:coord>
+        <gx:coord>138.502000 -35.002000 0</gx:coord>
+      </gx:Track>
+    </Placemark>
+    <Folder>
+      <name>F1-nested</name>
+      <Placemark>
+        <name>FOLDER-NESTED-TRACK</name>
+        <gx:Track>
+          <when>2026-09-28T10:00:00Z</when>
+          <when>2026-09-28T10:00:10Z</when>
+          <gx:coord>138.600000 -35.000000 0</gx:coord>
+          <gx:coord>138.601000 -35.001000 0</gx:coord>
+        </gx:Track>
+      </Placemark>
+    </Folder>
+  </Folder>
+  <Folder>
+    <name>F2</name>
+    <Placemark>
+      <name>FOLDER-LINESTRING</name>
+      <LineString><coordinates>138.7,-35,0 138.701,-35.001,0</coordinates></LineString>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

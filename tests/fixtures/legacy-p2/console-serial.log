@@ -1,0 +1,38 @@
+[1790590445723.864] console.log *** DEBUG:  APP_CONFIG
+[1790590445726.398] console.log *** DEBUG:  Object
+[1790590445911.345] console.log stdout:
+v22.23.2
+
+[1790590445911.464] console.log *** DEBUG:  app-info Object
+[1790590445911.637] console.log *** DEBUG:  Object
+[1790590445911.940] console.log *** DEBUG:  **settings$**
+[1790590455923.080] console.log === consolecap armed ===
+[1790590461866.342] console.info Serial Server: opening /dev/pts/2
+[1790590461869.394] console.info /dev/pts/2: open
+[1790590461873.758] console.log *** DEBUG:  started
+[1790590461873.834] console.log *** DEBUG:  sim-status:
+[1790590461873.881] console.log *** DEBUG:  Object
+[1790590461877.813] console.log set centre
+[1790590462874.413] console.log set centre
+[1790590463874.885] console.log set centre
+[1790590464874.540] console.log set centre
+[1790590465874.035] console.log set centre
+[1790590466873.985] console.log set centre
+[1790590467873.799] console.log set centre
+[1790590468873.658] console.log set centre
+[1790590469873.404] console.log set centre
+[1790590470874.446] console.log set centre
+[1790590471874.114] console.log set centre
+[1790590471884.801] console.info Object
+[1790590472874.043] console.log set centre
+[1790590473872.837] console.log set centre
+[1790590474874.711] console.log set centre
+[1790590475873.928] console.log set centre
+[1790590476873.103] console.log set centre
+[1790590477873.594] console.log set centre
+[1790590478586.951] console.log *** DEBUG:  stopped
+[1790590478587.106] console.log *** DEBUG:  sim-status:
+[1790590478587.201] console.log *** DEBUG:  Object
+[1790590478591.058] console.log set centre
+[1790590478602.883] console.info /dev/pts/2: closed
+[1790590480932.962] console.log *** DEBUG:  Object

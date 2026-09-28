@@ -1,0 +1,39 @@
+[1790587282291.363] console.log *** DEBUG:  APP_CONFIG
+[1790587282293.897] console.log *** DEBUG:  Object
+[1790587282482.926] console.log stdout:
+v22.23.2
+
+[1790587282483.092] console.log *** DEBUG:  app-info Object
+[1790587282483.294] console.log *** DEBUG:  Object
+[1790587282483.617] console.log *** DEBUG:  **settings$**
+[1790587293502.563] console.log === consolecap armed ===
+[1790587296267.167] console.log *** DEBUG:  started
+[1790587296267.359] console.log *** DEBUG:  sim-status:
+[1790587296267.409] console.log *** DEBUG:  Object
+[1790587296271.649] console.log set centre
+[1790587296295.516] console.warning error:  Error: connect ECONNREFUSED 127.0.0.1:15001
+    at __node_internal_captureLargerStackTrace (node:internal/errors:490:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:668:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+[1790587296295.913] console.info Object
+[1790587297268.860] console.log set centre
+[1790587298266.713] console.log set centre
+[1790587299267.949] console.log set centre
+[1790587300266.941] console.log set centre
+[1790587301267.202] console.log set centre
+[1790587302268.307] console.log set centre
+[1790587303267.195] console.log set centre
+[1790587304266.873] console.log set centre
+[1790587305268.707] console.log set centre
+[1790587306266.908] console.log set centre
+[1790587307268.895] console.log set centre
+[1790587308267.612] console.log set centre
+[1790587309267.545] console.log set centre
+[1790587310268.075] console.log set centre
+[1790587311268.049] console.log set centre
+[1790587312268.093] console.log set centre
+[1790587313268.810] console.log set centre
+[1790587314268.578] console.log set centre
+[1790587315268.504] console.log set centre
+[1790587316267.811] console.log set centre
+[1790587317268.120] console.log set centre

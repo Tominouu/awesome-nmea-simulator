@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "name": "Approche de port",
+  "description": "Route de 3 points au large d'Adélaïde, pilote en suivi de route, courant de travers de 1 nœud, vent de 15 nœuds.",
+  "simulation": {
+    "seed": 42,
+    "initial": { "position": { "lat": -35.02, "lon": 138.45 }, "headingDeg": 90, "speedKn": 6 },
+    "environment": { "windDirectionDeg": 200, "windSpeedKn": 15, "currentSetDeg": 0, "currentDriftKn": 1.0, "depthM": 18 }
+  },
+  "intervalMs": 1000,
+  "route": [
+    { "name": "WP1", "position": { "lat": -35.02, "lon": 138.47 } },
+    { "name": "WP2", "position": { "lat": -35.00, "lon": 138.49 } },
+    { "name": "PORT", "position": { "lat": -34.98, "lon": 138.50 } }
+  ],
+  "autopilot": "route",
+  "autoStart": true,
+  "transports": null
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <name>gxtrack-test</name>
+  <Placemark>
+    <name>GXTRACK-A</name>
+    <gx:Track>
+      <when>2026-09-28T10:00:00Z</when>
+      <when>2026-09-28T10:00:10Z</when>
+      <when>2026-09-28T10:00:20Z</when>
+      <when>2026-09-28T10:00:30Z</when>
+      <when>2026-09-28T10:00:40Z</when>
+      <gx:coord>138.500000 -35.000000 0</gx:coord>
+      <gx:coord>138.501000 -35.000000 0</gx:coord>
+      <gx:coord>138.502000 -35.000000 0</gx:coord>
+      <gx:coord>138.503000 -35.000000 0</gx:coord>
+      <gx:coord>138.504000 -35.000000 0</gx:coord>
+    </gx:Track>
+  </Placemark>
+</Document>
+</kml>

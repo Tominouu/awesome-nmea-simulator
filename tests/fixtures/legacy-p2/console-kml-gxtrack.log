@@ -1,0 +1,30 @@
+[1790590313757.224] console.log *** DEBUG:  APP_CONFIG
+[1790590313759.787] console.log *** DEBUG:  Object
+[1790590313954.527] console.log stdout:
+v22.23.2
+
+[1790590313954.648] console.log *** DEBUG:  app-info Object
+[1790590313954.824] console.log *** DEBUG:  Object
+[1790590313955.129] console.log *** DEBUG:  **settings$**
+[1790590323952.508] console.log === consolecap armed ===
+[1790590330018.806] console.log *** DEBUG:  ct
+[1790590330019.225] console.log *** DEBUG:  Set next point (0)
+[1790590330021.385] console.log set centre
+[1790590335975.432] console.log *** DEBUG:  Set next point (1)
+[1790590335975.670] console.log *** DEBUG:  started
+[1790590335975.730] console.log *** DEBUG:  sim-status:
+[1790590335975.771] console.log *** DEBUG:  Object
+[1790590335979.283] console.log set centre
+[1790590335994.075] console.info TCP Server: Server started on 127.0.0.1 : 10110
+[1790590335994.314] console.info Object
+[1790590336975.734] console.log *** DEBUG:  Set next point (2)
+[1790590336977.342] console.log set centre
+[1790590337974.755] console.log *** DEBUG:  Set next point (3)
+[1790590337976.686] console.log set centre
+[1790590338974.694] console.log *** DEBUG:  Set next point (4)
+[1790590338974.959] console.log *** DEBUG:  End of track reached.
+[1790590338976.272] console.log *** DEBUG:  stopped
+[1790590338976.377] console.log *** DEBUG:  sim-status:
+[1790590338976.449] console.log *** DEBUG:  Object
+[1790590338981.316] console.log set centre
+[1790590338993.021] console.info TCP Server (close): stopped on 127.0.0.1 : 10110
