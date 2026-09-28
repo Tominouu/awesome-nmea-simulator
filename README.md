@@ -35,6 +35,51 @@ Les scripts `packaging/windows/make-zip.ps1` et `packaging/macos/make-app.sh`
 construisent une archive portable et une application `.app` / `.dmg`. La CI
 produit ces artefacts ; voir [docs/development.md](docs/development.md).
 
+## Compiler le projet
+
+### Prérequis
+
+- Rust stable ≥ 1.85 : `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- Linux (Debian, Ubuntu) :
+  `sudo apt install pkg-config libudev-dev libgtk-3-dev libxkbcommon-dev`
+
+### Linux : binaire et paquet .deb
+
+```bash
+git clone https://github.com/Tominouu/awesome-nmea-simulator.git
+cd awesome-nmea-simulator
+packaging/linux/build.sh --install-deps   # première fois : paquets apt + cargo-deb
+packaging/linux/build.sh                  # binaire release + .deb
+packaging/linux/build.sh --no-deb         # binaire seul
+```
+
+Résultats :
+
+- `target/release/nmeasim` : exécutable autonome ;
+- `target/debian/nmeasim-rs_<version>_amd64.deb` : à installer avec
+  `sudo apt install ./target/debian/nmeasim-rs_<version>_amd64.deb`.
+
+### Avec cargo directement
+
+```bash
+cargo build --release              # target/release/nmeasim
+cargo run --release -- --start     # compiler et lancer
+cargo test --workspace             # tests (dont compatibilité legacy)
+cargo install cargo-deb && cargo deb -p nmeasim   # paquet .deb
+```
+
+### Windows, macOS
+
+```powershell
+packaging\windows\make-zip.ps1     # archive portable .zip
+```
+
+```bash
+packaging/macos/make-app.sh        # NMEA Simulator.app + .dmg
+```
+
+Plus de détails : [docs/development.md](docs/development.md).
+
 ## Lancement
 
 ```bash
